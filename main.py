@@ -1,6 +1,17 @@
+from etl.extract import extract_data
+from etl.transform import transform_data
+from etl.load import load_data
+
+
+
+
 def main():
-    print("Hello from gestion-automatique-des-penses-personnelles!")
+raw_data = extract_data()
+clean_data = transform_data(raw_data)
+load_data(clean_data)
+
+
 
 
 if __name__ == "__main__":
-    main()
+main()
