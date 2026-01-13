@@ -1,0 +1,48 @@
+# Environnements virtuels
+venv/
+.env/
+.venv/
+
+# Fichiers Python compilés
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Fichiers de log
+*.log
+
+# Fichiers SQLite
+*.sqlite3
+
+# Fichiers générés par pip / setuptools / distutils
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Fichiers spécifiques à IDEs
+.vscode/
+.idea/
+
+# Caches et fichiers temporaires
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# Configurations sensibles ou locales
+.env
+config.ini
+secrets.json
+
+# Coverage / testing
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# PyInstaller
+*.manifest
+*.spec
+
